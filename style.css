@@ -1,0 +1,400 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.main {
+    background-image: url(assets/images/bg.jpg);
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 644px;
+    position: relative;
+}
+
+.main .box {
+    background-color: black;
+    height: 644px;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+nav img {
+    width: 130px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.btn {
+    margin: 3px;
+    padding: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.723);
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.english {
+    background-color: rgba(248, 243, 243, 0.021);
+    border: none;
+}
+
+.signIn {
+    background-color: red;
+    border: none;
+}
+
+.comments {
+    position: relative;
+    gap: 23px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    /* margin-bottom: 3%; */
+}
+
+.comments> :nth-child(1) {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.comments> :nth-child(2) {
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.comments> :nth-child(3){
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.proceed{
+    position: relative;
+    text-align: center;
+}
+
+#email{
+    background-color: rgba(0, 0, 0, 0.478);
+    border:0.1px solid rgba(255, 255, 255, 0.21);
+    height: 14vh;
+    border-radius: 6px; 
+    color: white;
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+
+#GS{
+    background-color: rgb(104, 0, 0);
+    border: none;
+    padding: 12px 28px;
+    /* padding-bottom: 27px; */
+    font-size: 24px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 6px;
+}
+
+.border{
+    width: 100%;
+    height: 7px;
+    background-color: grey;
+}
+
+.boxes{
+    height: 100vh;
+    margin: auto;
+    padding: 2%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 23px;
+}
+
+
+.box1 :nth-child(1){
+    font-size: 50px;
+    padding-bottom: 2%;
+    font-weight: 700;
+}
+
+.box1 :nth-child(2){
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.tv{
+    position: relative;
+}
+
+.tv img{
+    width: 40vw;  
+    position: relative;
+    z-index: 10;
+}
+
+.tv video{
+    width: 29vw;
+    position: absolute;
+    top: 19%;
+    right: 14.1%;
+}
+
+.mobile img{
+   height: 70vh;
+}
+
+.writeup{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.writeup>:nth-child(1){
+    font-size: 50px;
+    padding-bottom: 2%;
+    font-weight: 700;
+}
+
+.writeup>:nth-child(2){
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.third :nth-child(1){
+    font-size: 50px;
+    padding-bottom: 2%;
+    font-weight: 700;
+}
+
+.third :nth-child(2){
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.apple{
+    position: relative;
+}
+
+.apple img{
+    width: 40vw;  
+    position: relative;
+    z-index: 10;
+}
+
+.apple video{
+    width: 25vw;
+    position: absolute;
+    top: 9%;
+    right: 21.1%;
+}
+
+.children img{
+    height: 70vh;
+}
+
+.likhal{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.likhal :nth-child(1){
+    font-size: 50px;
+    padding-bottom: 2%;
+    font-weight: 700;
+}
+
+.likhal :nth-child(2){
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.box5{
+    text-align: center;
+}
+
+.que {
+    transition: all 1s ease-out;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 24px;
+    max-width: 60vw;
+    margin: 34px auto;
+    cursor: pointer;
+}
+
+.que svg{
+    filter: invert(1);
+}
+
+.head{
+    margin: 10vh 5%;
+    font-size: larger;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 25vw 25vw 25vw 25vw;
+    color: rgb(240, 238, 238)
+}
+
+.parts{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    gap: 10px;
+}
+
+.parts a{
+    color: rgba(240, 238, 238, 0.867);
+}
+
+.downbtn{
+    margin: 4% 5%;
+}
+
+.end{
+    margin-left: 5%;
+    margin-bottom: 3%;
+    color: rgba(240, 238, 238, 0.867);
+}
+
+@media screen and (max-width: 800px) {
+    
+    nav{
+        max-width: 90vw;
+    }
+
+    .comments {
+        height: 33vh;
+        margin-bottom: 3%;
+    }
+    
+
+    .boxes{
+        flex-wrap: wrap;
+    }
+    .comments> :nth-child(1){
+        font-size: 32px;
+    }
+
+    .comments> :nth-child(2){
+        font-size: 18px;
+    }
+
+    .comments> :nth-child(3){
+        font-size: 18px;
+    }
+
+    #email{
+        height: 11vh;
+        font-size: 18px;
+        margin-top: 9%;
+    }
+
+    #GS{
+        font-size: 18px;
+    }
+
+    .box1 :nth-child(1){
+        font-size: 30px;
+        padding-bottom: 2%;
+        font-weight: 700;
+    }
+    
+    .box1 :nth-child(2){
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .writeup>:nth-child(1){
+        font-size: 30px;
+        padding-bottom: 2%;
+        font-weight: 700;
+    }
+    
+    .writeup>:nth-child(2){
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .mobile img{
+        height: 60vh;
+    }
+
+    .tv img{
+        width: 60vw;
+    }
+    
+    .tv video{
+        width: 43.3vw;
+        top: 19%;
+        right: 14.1%;
+    }
+
+    .likhal :nth-child(1){
+        font-size: 30px;
+        font-weight: 700;
+    }
+    
+    .likhal :nth-child(2){
+        font-size: 18px;
+        font-weight: 400;
+    } 
+
+    .third :nth-child(1){
+        font-size: 30px;
+        padding-bottom: 2%;
+        font-weight: 700;
+    }
+    
+    .third :nth-child(2){
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .children img{
+        height: 50vh;
+    }
+
+    .apple img{
+        width: 70vw;  
+        position: relative;
+        z-index: 10;
+    }
+    
+    .apple video{
+        width: 40vw;
+        position: absolute;
+        top: 9%;
+        right: 20%;
+    }
+}
